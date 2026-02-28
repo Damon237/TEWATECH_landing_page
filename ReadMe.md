@@ -7,7 +7,6 @@ Technologies Used:
 - CSS3
 - JavaScript
 
-  
 EMAILJS is integrated into it
 Instructions:
 1. Open index.html in any browser.

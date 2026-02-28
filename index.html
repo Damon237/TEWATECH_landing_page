@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TEWATECH</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
     <!-- Linking font awesome for icons  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
@@ -23,7 +23,10 @@
         </a>
         <ul class="nav-menu">
 
-            <button id="menu-close-button" class="fas fa-times"></button>
+            <li>
+            <button id="menu-close-button"  aria-label="Close menu" class="fas fa-times"></button>
+
+            </li>
             <li class="nav-item">
                 <a href="#home" class="nav-link">Home</a>
             </li>
@@ -40,12 +43,12 @@
             </li>
         </ul>
 
-        <button id="menu-open-button" class="fas fa-bars"></button>
+        <button id="menu-open-button"  aria-label="Open menu" class="fas fa-bars"></button>
     </nav>
     </header>
 
     <main>
-<!-- Hero section  -->
+        <!-- Hero section  -->
         <section class="hero-section" id="home">
             <div class="section-content">
                 <div class="hero-details">
@@ -86,7 +89,7 @@
 
                 </div>
                 <div class="hero-image-wrapper">
-                    <img src="./images/tewatech.jpg" alt="Hero" class="hero-image">
+                    <img src="./images/home.jpg" alt="Hero" class="hero-image">
                 </div>
             </div>
         </section>
@@ -95,7 +98,7 @@
         <section class="about-section" id="about">
            <div class="section-content">
             <div class="about-image-wrapper">
-                <img src="./images/T2.jpg" alt="" class="about-image">
+                <img src="./images/about1.png" alt="" class="about-image">
             </div>
             <div class="about-details">
                 <h2 class="section-title">About Us</h2>
@@ -105,8 +108,9 @@ Our mission is to simplify technology by providing reliable, scalable, and affor
 
 We believe technology should empower growth, improve productivity, and create new opportunities for everyone.</p>
 <div class="social-link-list">
-    <a href="https://www.facebook.com/tewatech/" class="social-link"><i class="fab fa-facebook-f"></i></a>
-    <a href="https://wa.me/237656317025" class="social-link"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://www.facebook.com/tewatech/" rel="noopener noreferrer" aria-label="Visit our Facebook page" class="social-link"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://wa.me/237656317025" rel="noopener noreferrer"
+   aria-label="Chat with us on WhatsApp" class="social-link"><i class="fab fa-whatsapp"></i></a>
     <!-- <a href="#" class="social-link"><i class="fab fa-instagram"></i></a> -->
 </div>
             </div>
@@ -134,12 +138,12 @@ We believe technology should empower growth, improve productivity, and create ne
                         <p class="text">Professional mobile app development services for iOS and Android platforms.</p>
                     </li>
                     <li class="service-item">
-                        <img src="./images/web.jpeg" style="border-radius: 20%;" alt="Web Development" class="service-image">
+                        <img src="./images/web.jpeg" id="id" alt="Web Development" class="service-image">
                         <h3 class="name">Web Development</h3>
                         <p class="text">Professional web development services to build scalable and secure web applications.</p>
                     </li>
                     <li class="service-item">
-                        <img src="./images/data-ana.avif" style="border-radius: 20%;" alt="Data Analytics" class="service-image">
+                        <img src="./images/data-ana.avif" id="id" alt="Data Analytics" class="service-image">
                         <h3 class="name">Data Analytics</h3>
                         <p class="text">Professional data analytics services to extract insights and drive informed business decisions.</p>
                     </li>
@@ -201,22 +205,22 @@ We believe technology should empower growth, improve productivity, and create ne
             <div class="section-content">
                 <ul class="gallery-list">
                     <li class="gallery-item">
-                        <img src="../images/gallery6.jpg" alt="Gallery" class="gallery-image">
+                        <img src="./images/gallery6.png" alt="Gallery" class="gallery-image">
                     </li>
                     <li class="gallery-item">
-                        <img src="../images/gallery1.jpg" alt="Gallery" class="gallery-image">
+                        <img src="./images/gallery11.jpg" alt="Gallery" class="gallery-image">
                     </li>
                     <li class="gallery-item">
-                        <img src="../images/gallery2.jpg" alt="Gallery" class="gallery-image">
+                        <img src="./images/gallery2.jpg" alt="Gallery" class="gallery-image">
                     </li>
                     <li class="gallery-item">
-                        <img src="../images/gallery3.jpg" alt="Gallery" class="gallery-image">
+                        <img src="./images/gallery3.jpg" alt="Gallery" class="gallery-image">
                     </li>
                     <li class="gallery-item">
-                        <img src="../images/gallery4.jpg" alt="Gallery" class="gallery-image">
+                        <img src="./images/gallery.png" alt="Gallery" class="gallery-image">
                     </li>
                     <li class="gallery-item">
-                        <img src="../images/gallery5.jpg" alt="Gallery" class="gallery-image">
+                        <img src="./images/gallery5.png" alt="Gallery" class="gallery-image">
                     </li>
                 </ul>
             </div>
@@ -229,11 +233,11 @@ We believe technology should empower growth, improve productivity, and create ne
                 <ul class="contact-info-list">
                     <li class="contact-info">
                         <i class="fa-solid fa-location-crosshairs"></i>
-                        <p><a href="https://www.google.com/maps/search/?api=1&query=Logbessou,+Douala,+Cameroon" target="_blank">Logbessou, Douala, Cameroon</a></p>
+                        <p><a rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Logbessou,+Douala,+Cameroon" target="_blank">Logbessou, Douala, Cameroon</a></p>
                     </li>
                     <li class="contact-info">
                         <i class="fa-solid fa-phone"></i>
-                        <p><a href="tel:+237656317025">+237 656 317 025</a></p>
+                        <p><a href="tel:+237656317025" rel="noopener">+237 656 317 025</a></p>
                     </li>
                     <li class="contact-info">
                         <i class="fa-solid fa-envelope"></i>
@@ -260,12 +264,14 @@ We believe technology should empower growth, improve productivity, and create ne
                 <p class="copyright-text">&copy; <span id="year"></span> TEWATECH. All rights reserved.</p>
                 
                 <div class="social-link-list">
-    <a href="https://www.facebook.com/tewatech/" class="social-link"><i class="fab fa-facebook-f"></i></a>
-    <a href="https://wa.me/237656317025" class="social-link"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://www.facebook.com/tewatech/" rel="noopener noreferrer"
+   aria-label="Visit our Facebook page" class="social-link"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://wa.me/237656317025" rel="noopener noreferrer"
+   aria-label="Chat with us on WhatsApp" class="social-link"><i class="fab fa-whatsapp"></i></a>
     <!-- <a href="#" class="social-link"><i class="fab fa-instagram"></i></a> -->
 </div>
 <p class="policy-text">
-    <a href="#" class="policy-link">Privacy Policy</a> | <a href="#" class="policy-link">Terms of Service</a>
+    <a href="./privacy-policy.html" class="policy-link">Privacy Policy</a> | <a href="#" class="policy-link">Terms of Service</a>
 </p>
             </div>
           </footer>
@@ -274,9 +280,10 @@ We believe technology should empower growth, improve productivity, and create ne
     <!-- link for swiper js for slider functionality   -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
+    <!-- Link for Emailjs for sending email directly to the comapany -->
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
     <!-- linking custon script  -->
-    <script src="../js/script.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
